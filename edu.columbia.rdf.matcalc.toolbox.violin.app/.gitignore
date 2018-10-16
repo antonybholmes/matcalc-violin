@@ -1,0 +1,5 @@
+/bin/
+/target/
+/*log*
+/.settings/
+/user.settings.json
