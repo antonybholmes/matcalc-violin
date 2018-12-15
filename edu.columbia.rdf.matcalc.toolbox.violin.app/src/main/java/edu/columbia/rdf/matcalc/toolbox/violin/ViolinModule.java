@@ -30,10 +30,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import edu.columbia.rdf.matcalc.MainMatCalcWindow;
-import edu.columbia.rdf.matcalc.toolbox.CalcModule;
+import edu.columbia.rdf.matcalc.toolbox.Module;
 import edu.columbia.rdf.matcalc.toolbox.violin.app.ViolinIcon;
 
-public class ViolinModule extends CalcModule implements ModernClickListener {
+public class ViolinModule extends Module implements ModernClickListener {
 
   // private static final int DEFAULT_POINTS =
   // SettingsService.getInstance().getInt("pattern-discovery.cdf.points");
