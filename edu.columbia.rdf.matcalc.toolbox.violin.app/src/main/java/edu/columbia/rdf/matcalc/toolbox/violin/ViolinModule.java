@@ -12,7 +12,7 @@ import org.jebtk.core.ColorUtils;
 import org.jebtk.core.collections.UniqueArrayList;
 import org.jebtk.core.http.Http;
 import org.jebtk.core.http.URLUtils;
-import org.jebtk.core.http.UrlBuilder;
+import org.jebtk.core.http.URLPath;
 import org.jebtk.core.io.FileUtils;
 import org.jebtk.core.io.PathUtils;
 import org.jebtk.core.io.TmpService;
@@ -221,7 +221,7 @@ public class ViolinModule extends Module implements ModernClickListener {
       String xlabel,
       String ylabel,
       Path out) throws IOException {
-    UrlBuilder url = new UrlBuilder(PDF_URL).param("violin", violin)
+    URLPath url = URLPath.fromUrl(PDF_URL).param("violin", violin)
         .param("box", box).param("swarm", swarm).param("x", xlabel)
         .param("y", ylabel);
 

@@ -22,6 +22,7 @@ import javax.swing.Box;
 import org.jebtk.core.settings.SettingsService;
 import org.jebtk.modern.UI;
 import org.jebtk.modern.button.ModernCheckSwitch;
+import org.jebtk.modern.button.ModernTwoStateWidget;
 import org.jebtk.modern.dialog.ModernDialogHelpWindow;
 import org.jebtk.modern.event.ModernClickEvent;
 import org.jebtk.modern.event.ModernClickListener;
@@ -29,7 +30,6 @@ import org.jebtk.modern.panel.HExBox;
 import org.jebtk.modern.panel.VBox;
 import org.jebtk.modern.text.ModernTextBorderPanel;
 import org.jebtk.modern.text.ModernTextField;
-import org.jebtk.modern.widget.ModernTwoStateWidget;
 import org.jebtk.modern.window.ModernWindow;
 import org.jebtk.modern.window.WindowWidgetFocusEvents;
 
